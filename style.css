@@ -2,6 +2,7 @@ body {
      font-family: 'Pragati Narrow', sans-serif;
      margin: 0%;    
 }
+
 h1{
      font-size: 44px;
      text-align: ;
@@ -13,12 +14,13 @@ h2 {
      color: Crimson;
 }
 
-p{
+p {
      color: rgb(53, 53, 53);
      font-size: 20px;
      padding: 0 0 30px 0;
      text-align: justify;
 }
+
 .half-width {
      width: 35%;
      margin: 2%;
@@ -55,11 +57,11 @@ p{
      background-repeat: no-repeat;
 }
      
-section{
+section {
      height: 1080px;
 }
 
-.biography{
+.biography {
      background-image: url(images/biography-bg.png);
      width: 100%;
      margin: 0;
@@ -76,17 +78,19 @@ section{
      position: center;
 }
 
-.text {width: 35%;  
+.text {
+     width: 35%;  
      float: right;
      padding: 10% 12% 5% 2%;
      height: 720px;
 }
-.work{
+
+.work {
      text-align: center;
      padding-top: 10%;
 }
 
-.latest-work{
+.latest-work {
      background-image: url(images/latest-work-bg.png);
      width: 100%;
      background-repeat: no-repeat;
@@ -97,40 +101,62 @@ section{
      float: left;
 }
 
-.image1{
+.image1 {
      padding: 5% 2% 15% 10%;
 }
+
 .image2 {
      padding: 5% 0% 15% 0%;
 }
+
 .image3 {
      padding: 5% 10% 15% 2%;
 }
 
-.footer{
+.footer {
      background-image: url(images/footer-bg.png);
      width: 100%;
 }
-.client{
+
+.client {
      text-align: center;
      font-size: 38px;
 }
-.hridoy{
+
+.hridoy {
      text-align: center;
      font-size: 25px;
      color: #f50052;
-     padding-top: 5%;}
+     padding-top: 5%;
+}
      
 .title {
      text-align: center;
      font-size: 18px;
      color: #5c5c5c;   
 }
-ul{
-     text-align: center;     
-}
- 
-.button-last{
+
+ul {
      text-align: center;
-     background-color: #f50052;
+     padding-bottom: 10px;     
 }
+
+last-child {
+     margin-bottom: 5%;
+     padding: 10x;
+}
+
+ .end {
+     font-size: 25px;
+     text-align: center;
+     text-decoration: none;
+     background-image: linear-gradient(45deg, #ff2c7d, #f50052);
+     margin-left: 37.5%;
+     padding: 60px 120px;
+     color: white;
+     float: inline-end;
+     font-weight: 700;
+     border-radius: 10px;
+     margin-top: 5%;
+ }
+
