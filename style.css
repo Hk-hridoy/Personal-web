@@ -3,6 +3,10 @@ body {
      margin: 0%;    
 }
 
+section {
+     height: 1080px;
+}
+
 h1{
      font-size: 44px;
      text-align: ;
@@ -41,7 +45,6 @@ p {
      width: 100%;
 }
 
-
 .button {
      background-image: linear-gradient(45deg, #ff2c7d, #f50052);
      padding: 15px 40px;
@@ -57,10 +60,6 @@ p {
      background-repeat: no-repeat;
 }
      
-section {
-     height: 1080px;
-}
-
 .biography {
      background-image: url(images/biography-bg.png);
      width: 100%;
@@ -146,7 +145,7 @@ last-child {
      padding: 10x;
 }
 
- .end {
+.end {
      font-size: 25px;
      text-align: center;
      text-decoration: none;
@@ -160,11 +159,9 @@ last-child {
      margin-top: 5%;
  }
 
-.copyright { text-align: center;
+.copyright { 
+     text-align: center;
      padding-top: 15%;
      float: inline-end;
-     font-size: 16px;
-
-     
+     font-size: 16px;     
 }
-
